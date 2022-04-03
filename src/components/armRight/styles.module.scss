@@ -1,0 +1,73 @@
+.container{
+    width: 500px;
+    height: min(250px, 400px);
+    
+    position: fixed;
+    background: #252639;
+    color: white;
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: 400px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.DisplayText{
+    padding: 0px;
+    width: 40%;
+    height: 90%;
+    border: none;
+    border-radius: 20px;    
+    justify-content: center;
+    align-items: center;
+}
+.DisplayTextFix{
+    padding: 0px;
+    width: 25%;
+    height: 90%;
+    border: none;
+    border-radius: 20px;    
+    justify-content: center;
+    align-items: center;
+}
+.containerInputs{
+    width: 95%;
+    height: 30%;
+    border:#3c3e53;
+    margin: 10px;
+    border-radius: 20px;
+    color: white;
+    border-style: solid;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    button{
+        height: 90%;
+        margin:3px;
+        width: 13%;
+        border-radius: 10px;
+        border: none;
+        background: #3c3e53;
+        transition: 0.1s;
+        font-size:larger;
+        color: white;
+
+        &:hover{
+            background-color: #67697a;
+        }
+    }
+}
+.DivName{
+    color: white;
+    background-color: white;
+
+    width: 210px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 10vw;
+    margin-top: 40vh;
+}
